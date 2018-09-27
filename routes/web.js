@@ -14,6 +14,7 @@ if (process.env.SITE_PASSWORD) {
 
   router.use((req, res, next) => {
     if (process.env.SITE_PASSWORD !== req.cookies.password) {
+      res.clearCookie('password');
       if (req.originalUrl !== '/login') {
         res.redirect(res.locals.url + '/login');
         return;
