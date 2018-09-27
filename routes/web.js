@@ -13,7 +13,6 @@ if (process.env.SITE_PASSWORD) {
   });
 
   router.use((req, res, next) => {
-    console.log(process.env.SITE_PASSWORD, req.cookies.password);
     if (process.env.SITE_PASSWORD !== req.cookies.password) {
       if (req.originalUrl !== '/login') {
         res.redirect(res.locals.url + '/login');
