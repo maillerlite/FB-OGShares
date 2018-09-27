@@ -1,0 +1,27 @@
+extends layouts/defaults.pug
+
+block content
+  form(action='#', method='post')#box-input.box
+    div.input-control.input-icon
+      i(aria-hidden='true').fa.fa-cube
+      select(name='app')#select-app
+        option(value='') Plilih Aplikasi
+        each app, index in apps
+          option(value=index)= app.title
+    div.input-control.input-icon
+      i(aria-hidden='true').fa.fa-link
+      input(type='url', name='url', placeholder='URL Address/Alamat Redirect')#input-url
+    div.input-control.input-icon
+      i(aria-hidden='true').fa.fa-link
+      input(type='url', name='image', placeholder='URL Image/Alamat Gambar')#input-image
+    div.input-control.input-icon
+      i(aria-hidden='true').fa.fa-text-height
+      input(type='text', name='title' placeholder='Title/Judul')#input-title
+    div.input-control
+      textarea(name='description', placeholder='Description/Deskripsi', rows='8' cols='40').input-description
+    div.input-control
+      button.btn#sumbit
+        | #{' '}Generate
+
+    div.list
+      div#table-wrapper

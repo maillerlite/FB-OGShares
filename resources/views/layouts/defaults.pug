@@ -1,0 +1,29 @@
+doctype html
+html('en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    if pageTitle
+      title #{siteTitle} | #{pageTitle}
+    else
+      title= siteTitle
+    link(rel='stylesheet', href='/css/app.css')
+    script(type='text/javascript' src='/js/manifest.js')
+    script(type='text/javascript' src='/js/vendor.js')
+    script(type='text/javascript' src='/js/app.js')
+  body
+    div.global-wrapper
+      div.header-wrapper
+        h1= siteTitle
+      div.body-wrapper
+        block content
+      div.footer-wrapper
+        p
+          if no != siteFooter
+            | Made with#{' '}
+            i(aria-hidden='true').fa.fa-heart.text-red
+            span.sr-only love
+            | #{' '}by#{' '}
+            a(href="http://mas-fahri.com", target='_blank') Fahri
+            | #{' '}in Indonesia, Gresik.#{' | '}
+          | System version #{pjson.version}

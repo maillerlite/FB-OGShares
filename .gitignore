@@ -1,0 +1,8 @@
+/node_modules
+/.idea
+/.vscode
+/.vagrant
+/.c9
+npm-debug.log
+.env
+.post-app.json

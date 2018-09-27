@@ -1,0 +1,11 @@
+extends layouts/defaults.pug
+
+block content
+  form(action=url + '/login', method='POST')#box-login.box
+    div.input-control.input-icon
+      i(aria-hidden='true').fa.fa-lock
+      input(type='password', name='password', placeholder='Password')#input-password
+    div.input-control
+      button.btn
+        i(aria-hidden='true').fa.fa-sign-in
+        |#{' '}Login

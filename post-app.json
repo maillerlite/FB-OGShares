@@ -1,0 +1,82 @@
+[
+  {
+    "title": "King5",
+    "appId": "156537084972880",
+    "url": "www.king5.com"
+  },
+  {
+    "title": "Bing",
+    "appId": "111239619098",
+    "url": "www.bing.com"
+  },
+  {
+    "title": "Smule",
+    "appId": "432838856814725",
+    "url": "smule.com"
+  },
+  {
+    "title": "Github",
+    "appId": "1401488693436528",
+    "url": "github.com"
+  },
+  {
+    "title": "Weebly",
+    "appId": "190291501407",
+    "url": "weebly.com"
+  },
+  {
+    "title": "Medium",
+    "appId": "542599432471018",
+    "url": "medium.com"
+  },
+  {
+    "title": "Wix",
+    "appId": "733768086637828",
+    "url": "wix.com"
+  },
+  {
+    "title": "Miniclip",
+    "appId": "111411968896241",
+    "url": "www.miniclip.com"
+  },
+  {
+    "title": "Developer",
+    "appId": "113869198637480",
+    "url": "developers.facebook.com"
+  },
+  {
+    "title": "18+",
+    "appId": "184484190795",
+    "url": "www.fbrell.com"
+  },
+  {
+    "title": "Paperlesspost",
+    "appId": "103384409739156",
+    "url": "paperlesspost.com"
+  },
+  {
+    "title": "Postify",
+    "appId": "258883394309702",
+    "url": "postfity.com"
+  },
+  {
+    "title": "Imgur",
+    "appId": "127621437303857",
+    "url": "imgur.com"
+  },
+  {
+    "title": "USA Today",
+    "appId": "215046668549694",
+    "url": "www.usatoday.com"
+  },
+  {
+    "title": "Live Stream",
+    "appId": "142371818162",
+    "url": "livestream.com"
+  },
+  {
+    "title": "You Now",
+    "appId": "171373592926306",
+    "url": "www.younow.com"
+  }
+]
